@@ -32,7 +32,7 @@ data "terraform_remote_state" "dev" {
     organization = "ignw-test"
     workspaces = {
       # name = "minimum-dev"
-      # prefix = "minimum-"
+      prefix = "minimum-"
     }
   }
 }
